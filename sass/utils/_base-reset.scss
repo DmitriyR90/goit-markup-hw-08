@@ -1,0 +1,45 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.conteiner {
+  margin: 0 auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  padding: 94px 0;
+}
+body {
+  font-family: $main-text-style;
+  color: var(--text-color);
+  background-color: var(--main-bg-color);
+  font-size: 14px;
+}
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  font-style: normal;
+}

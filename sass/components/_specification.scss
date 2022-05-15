@@ -1,0 +1,33 @@
+.specs {
+  display: flex;
+}
+
+.specs__title {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--main-text-color);
+}
+
+.specs__item {
+  width: 270px;
+  height: 120px;
+  background: var(--team-bg-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.specs__list:not(:last-child) {
+  margin-right: 30px;
+}
+.specs__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
