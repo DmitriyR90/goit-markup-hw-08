@@ -4,8 +4,10 @@
 }
 
 .footer__conteiner {
-  display: flex;
-  align-items: baseline;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .logo__text--footer-color {
@@ -31,6 +33,7 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms var(--timming);
+
   &:hover,
   &:focus {
     color: var(--text-focus-color);
@@ -56,6 +59,7 @@
 .social-list__link--footer-color {
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--main-bg-color);
+
   &:hover,
   &:focus {
     background-color: var(--text-focus-color);

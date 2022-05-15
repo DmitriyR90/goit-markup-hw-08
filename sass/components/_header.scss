@@ -39,6 +39,7 @@
   .current {
     color: var(--text-focus-color);
   }
+
   &:hover,
   &:focus {
     color: var(--text-focus-color);
@@ -57,10 +58,12 @@
     transform: scaleX(0);
     transition: transform 250ms var(--timming);
   }
+
   &:hover::before,
   &:focus::before {
     transform: scaleX(1);
   }
+
   &.current::after {
     content: '';
     position: absolute;
@@ -76,6 +79,7 @@
 
 .navigation-list__item {
   position: relative;
+
   &:not(:last-child) {
     margin-right: 50px;
   }
@@ -88,6 +92,7 @@
   letter-spacing: 0.02em;
   color: var(--text-color);
   transition: color 250ms var(--timming);
+
   &:hover,
   &:focus {
     color: var(--text-focus-color);

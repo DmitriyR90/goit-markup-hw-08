@@ -1,14 +1,8 @@
 .section__our-works {
   padding-top: 0%;
-}
-
-.section-title {
-  text-align: center;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
-  margin-bottom: 50px;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 
 .examples {
