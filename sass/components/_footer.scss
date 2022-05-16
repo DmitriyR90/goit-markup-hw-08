@@ -3,11 +3,27 @@
   background-color: var(--footer-bg-color);
 }
 
+.company-contacts {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+  }
+}
 .footer__conteiner {
-  @media screen and (min-width: 1200px) {
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: baseline;
   }
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+  }
+}
+.footer-main {
+  margin-right: 70px;
 }
 
 .logo__text--footer-color {
@@ -20,10 +36,6 @@
 
 .adress {
   font-style: normal;
-}
-
-.company-contacts__link--adress-color {
-  color: var(--main-bg-color);
 }
 
 .company-contacts__link {
@@ -41,11 +53,21 @@
 }
 
 .company-contacts__list:not(:last-child) {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 9px;
+  }
+}
+
+.company-contacts__link--adress-color {
+  color: var(--main-bg-color);
 }
 
 .connect__wrap {
-  margin-left: 70px;
+  // margin-left: 70px;
+  @media screen and(max-width:767px) {
+    margin-bottom: 60px;
+  }
 }
 .connect__title {
   margin-bottom: 20px;

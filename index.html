@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <!-- <header class="header header--underline">
+    <header class="header header--underline">
       <div class="conteiner header__conteiner">
         <nav class="navigation">
           <a lang="en" href="./index.html" class="logo header__logo link"
@@ -55,8 +55,56 @@
             >
           </li>
         </ul>
+
+        <!-- !mobile-menu -->
+
+        <button type="button" class="mobile-menu-btn">
+          <svg class="mobile-menu__icon" width="40" height="40">
+            <use class="mobile-menu__open" href="./images/icons.svg#icon-mobile-menu-open" />
+            <use class="mobile-menu__cros" href="./images/icons.svg#icon-mobile-menu-cross" />
+          </svg>
+        </button>
+        <div class="mobile-menu">
+          <ul class="mobile-menu__site-nav">
+            <li class="mobile-menu__site-list list">
+              <a class="mobile-menu__site-link link" href="">Студия</a>
+            </li>
+            <li class="mobile-menu__site-list list">
+              <a class="mobile-menu__site-link link" href="">Портфолио</a>
+            </li>
+            <li class="mobile-menu__site-list list">
+              <a class="mobile-menu__site-link link" href="">Контакты</a>
+            </li>
+          </ul>
+
+          <ul class="mobile-menu__site-contact">
+            <li class="mobile-menu__list-tel list">
+              <a class="mobile-menu__link-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+            <li class="mobile-menu__list-mail list">
+              <a class="mobile-menu__link-tel link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+
+          <ul class="mobile-menu__soc">
+            <li class="mobile-menu__soc-list list">
+              <a class="mobile-menu__soc-link link" href="">Instagram</a>
+            </li>
+            <li class="mobile-menu__soc-list list">
+              <a class="mobile-menu__soc-link link" href="">Twitter</a>
+            </li>
+            <li class="mobile-menu__soc-list list">
+              <a class="mobile-menu__soc-link link" href="">Facebook</a>
+            </li>
+            <li class="mobile-menu__soc-list list">
+              <a class="mobile-menu__soc-link link" href="">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </header> -->
+    </header>
 
     <main>
       <!-- !секция герой -->
@@ -432,9 +480,9 @@
           </ul>
         </div>
 
-    <!--!Форма подписаться-->
+        <!--!Форма подписаться-->
 
-    <form class="subscribe subscribe__form">
+        <form class="subscribe subscribe__form">
           <h2 class="subscribe__title">Подпишитесь на рассылку</h2>
           <div class="subscribe-wrap">
             <input class="subscribe__input" type="text" name="subscribe" placeholder="E-mail" />
