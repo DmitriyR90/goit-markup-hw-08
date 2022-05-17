@@ -1,5 +1,8 @@
 .header {
-  position: relative;
+  @media screen and (max-width: 767px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 .header--underline {
   border-bottom: 1px solid var(--hero-underline);
@@ -11,12 +14,9 @@
 }
 
 .navigation {
-  @media screen and (max-width: 767px) {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-  // display: flex;
-  // align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navigation-list {
