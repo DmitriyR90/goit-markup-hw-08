@@ -23,7 +23,9 @@
   }
 }
 .footer-main {
-  margin-right: 70px;
+  @media screen and(min-width:1200px) {
+    margin-right: 70px;
+  }
 }
 
 .logo__text--footer-color {
