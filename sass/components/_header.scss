@@ -8,16 +8,10 @@
   border-bottom: 1px solid var(--hero-underline);
 }
 
-// .header__conteiner {
-//   @media screen and (min-width: 768px) {
-//     display: flex;
-//     align-items: center;
-//   }
-// }
-
 .navigation {
   display: flex;
   align-items: center;
+
   @media screen and (max-width: 767px) {
     justify-content: space-between;
   }
@@ -121,14 +115,9 @@
   }
 }
 
-// .contacts {
-//   display: flex;
-//   align-items: center;
-//   margin-left: auto;
-// }
-
 .header__contacts {
   margin-left: auto;
+
   @media screen and (max-width: 767px) {
     display: none;
   }
@@ -152,10 +141,6 @@
     }
   }
 }
-
-// .contacts__list + .contacts__list {
-//   margin-left: 50px;
-// }
 
 .contacts__logo {
   vertical-align: middle;

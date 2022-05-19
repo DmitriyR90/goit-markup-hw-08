@@ -3,9 +3,11 @@
     margin-left: auto;
   }
 }
+
 .subscribe__input {
   height: 50px;
   padding-left: 16px;
+  margin-bottom: 20px;
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -13,6 +15,7 @@
   border-radius: 4px;
   background-color: transparent;
   color: inherit;
+
   &:focus {
     outline: none;
     border-color: var(--text-focus-color);
@@ -24,10 +27,8 @@
   @media screen and (min-width: 480px) {
     width: 450px;
   }
-  @media screen and (max-width: 1199px) {
-    margin-bottom: 20px;
-  }
   @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
     width: 358px;
     margin-right: 12px;
   }
@@ -53,11 +54,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
   @media screen and(max-width:1199px) {
     margin-left: auto;
     margin-right: auto;
   }
 }
+
 .subscribe__icon {
   margin-left: 10px;
   fill: var(--main-bg-color);

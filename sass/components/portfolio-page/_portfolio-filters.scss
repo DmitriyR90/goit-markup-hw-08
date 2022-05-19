@@ -1,3 +1,16 @@
+.portfolio-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
 .portfolio-filter__btn {
   cursor: pointer;
   padding: 6px 22px;
@@ -12,6 +25,7 @@
   background-color: var(--team-bg-color);
   transition: color 250ms var(--timming), background-color 250ms var(--timming),
     box-shadodw 250ms var(--timming);
+
   &:hover,
   &:focus {
     color: var(--main-bg-color);
@@ -20,11 +34,8 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
+
 .portfolio-filter__btn--current {
   color: var(--main-bg-color);
   background-color: var(--text-focus-color);
-}
-
-.portfolio-filter__list:not(:last-child) {
-  margin-right: 8px;
 }
